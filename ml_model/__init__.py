@@ -24,7 +24,7 @@ class ChurnModel:
         # Get the final churn prediction.
         churn_prediction = self.model.predict(input_scaled)[0]
 
-        # Format the prediction result as a descriptive string.
+         # Format the prediction result as a descriptive string.
         churn_prediction_result = (f"A person aged {age} with {tenure} years of tenure is predicted to "
                    f"{'Churn' if churn_prediction == 1 else 'Not Churn'}. "
                    f"(Probability: {churn_probability:.2f})")

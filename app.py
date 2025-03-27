@@ -26,6 +26,10 @@ def predict_churn():
         if not isinstance(tenure, (int, float)) or tenure < 0:
             return jsonify({"error": "Invalid 'tenure' value. Must be a positive number."}), 400
 
+        # Validation: tenure cannot be greater than age
+        if tenure > age:
+            return jsonify({"error": "'tenure' cannot be greater than 'age'"}), 400
+
         # Make churn prediction
         churn_result = cmodel.predict(age, tenure)
 
