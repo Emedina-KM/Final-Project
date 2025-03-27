@@ -61,7 +61,7 @@ Open VS Code and go to Extensions (Ctrl+Shift+X), then search for "Thunder Clien
      {
       "age": x,
       "tenure": y
-    }
+     }
 7.4. Click "Send" to test the endpoint.
 ```
 
