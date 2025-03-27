@@ -54,7 +54,7 @@ docker compose up -d
 ### 7. Test the API using Thunder Client
 
 ```shell
-7.1. Open Thunder Client in VS Code.
+"7.1. Open Thunder Client in VS Code.
 7.2. Create a new POST request to the following URL: 
      http://127.0.0.1:8000/churn
 7.3. In the request body (JSON format), enter the following:
@@ -62,7 +62,7 @@ docker compose up -d
       "age": x,
       "tenure": y
     }
-7.4. Click "Send" to test the endpoint.
+7.4. Click "Send" to test the endpoint."
 ```
 
 ### 8. (Optional) Remove all containers
