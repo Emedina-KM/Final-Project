@@ -48,7 +48,7 @@ docker compose up -d
 ### 6. Install Thunder Client for API testing (VS Code Extension)
 
 ```shell
-"Open VS Code and go to Extensions (Ctrl+Shift+X), then search for "Thunder Client" and install it."
+Open VS Code and go to Extensions (Ctrl+Shift+X), then search for "Thunder Client" and install it.
 ```
 
 ### 7. Test the API using Thunder Client
