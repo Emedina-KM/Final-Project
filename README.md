@@ -1,6 +1,6 @@
 # Churn Prediction API
 
-This API, built with Flask, predicts the likelihood of a customer churning based on two numerical features: **age** and **tenure**. It uses a pre-trained logistic regression model along with a StandardScaler to properly transform the input data. The model and scaler were serialized and loaded at runtime to ensure smooth predictions.
+This API, built with Flask, predicts the likelihood of a customer churning based on two numerical features: **age** and **tenure (in years)**. It uses a pre-trained logistic regression model along with a StandardScaler to properly transform the input data. The model and scaler were serialized and loaded at runtime to ensure smooth predictions.
 
 The main endpoint, `/churn`, accepts a POST request with a JSON payload containing `"age"` and `"tenure"`. Input validations ensure that:  
 - Both values are positive numbers.  
